@@ -22,6 +22,7 @@ const App = () => {
                 <Skills />
             </Info>
         </Main>
+        
     )
 }
 
