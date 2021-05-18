@@ -6,7 +6,7 @@ const Skills = () => (
             <div className="Skills-item">
                 <h5>HTML</h5>
                 <div className="Skills-line">
-                    <span>95</span>
+                    <span>80</span>
                 </div>
             </div>
         </div>

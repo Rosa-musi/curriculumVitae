@@ -1,0 +1,48 @@
+{
+     "rosa": {
+          "address": "Guadalajara, México",
+          "avatar": "https://imagizer.imageshack.com/img924/2118/dWvn1A.jpg",
+          "bio": "I'm a systems engineer estudent discovering the web development world",
+          "certificates":[ 
+               {
+                    "name": "Azure fundamentals",
+                    "group": "Microsoft",
+                    "date": 2021
+               },
+               {
+                    "name": "fundamentals for research in the 4.0 indutry with Microsoft technologies",
+                    "group": "EDUIT",
+                    "date": 2020
+               },
+               {
+                    "name": "Front end web developmet certification",
+                    "group": "Acamica",
+                    "date": "2020 - 2021"
+               }
+          ],
+          "education": [
+               {
+                    "school": "Universidad Virtual de Guanajuato",
+                    "degree": "systems engineering",
+                    "date": "2020 - 2022"
+               },
+               {
+                    "school": "Universidad de Guadalajara",
+                    "degree": "music bachelor's degree",
+                    "date": "2009 - 2014"
+               }
+          ],
+          "name": "Rosa Arellano",
+          "profession": "Front end developer and systems engenieer student",
+          "skills": {
+               "HTML": 80,
+               "css": 70,
+               "JavaScript": 60,
+               "React": 70
+          },
+          "social": {
+               "github": "Rosa-musi" ,
+               "linkedin": "www.linkedin.com/in/rosa-arellano"
+          }
+     }
+}
