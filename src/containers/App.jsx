@@ -7,6 +7,7 @@ import Education from '../components/Education'
 import Experience from '../components/Experience'
 import Certificates from '../components/Certificates'
 import Skills from '../components/Skills'
+import Social from '../components/Social'
 import useGetData from '../hooks/useGetData'
 
 
@@ -23,7 +24,6 @@ const App = () => {
                     profession={data.profession}
                     bio={data.bio}
                     address={data.address}
-                    social={data.social}
                 />
             </Sidebar>
             <Info>
@@ -33,7 +33,9 @@ const App = () => {
                 <Certificates 
                     data={data.certificates}
                 />
-                <Skills />
+                <Skills 
+                    data={data.skills}
+                />
             </Info>
         </Main>
         

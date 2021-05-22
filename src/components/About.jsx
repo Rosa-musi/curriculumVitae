@@ -1,16 +1,45 @@
 import React from 'react';
+import Social from './Social'
+import styled from 'styled-components'
+
+const AboutStyle = styled.div`
+    text-align: center;
+`
+const AboutAvatar = styled.div`
+    padding: 2em 0 0 0;
+`
+const AboutImg = styled.img`
+    object-fit: cover;
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    border: 2px solid #E91E63;
+    margin: 0 auto;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+`
+const AboutName = styled.div`
+    text-align: center;
+`
+const AboutH2 = styled.h2`
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;
+   letter-spacing: 1.2px;
+   margin: .5em 0 0 0;
+   color: #C2185B;
+`
 
 const About = ({ avatar, name, profession, bio, address })=> (
-    <div className="About">
+    <AboutStyle>
         <div className="About-container">
-            <div className="About-avatar">
+            <AboutAvatar>
                 <figure>
-                    <img src={avatar} alt="" />
+                    <AboutImg src={avatar} alt="" />
                 </figure>
-            </div>
-            <div className="About-name">
-                <h2>{name}</h2>
-            </div>
+            </AboutAvatar>
+            <AboutName>
+                <AboutH2>{name}</AboutH2>
+            </AboutName>
             <div className="About-profession">
                 <p>{profession}</p>
             </div>
@@ -21,10 +50,10 @@ const About = ({ avatar, name, profession, bio, address })=> (
                 <p>{address}</p>
             </div>
             <div className="About-social">
-                social
+                <Social/>
             </div>
         </div>
-    </div>
+    </AboutStyle>
 )
 
 export default About;

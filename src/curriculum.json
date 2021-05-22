@@ -34,15 +34,23 @@
           ],
           "name": "Rosa Arellano",
           "profession": "Front end developer and systems engenieer student",
-          "skills": {
-               "HTML": 80,
-               "css": 70,
-               "JavaScript": 60,
-               "React": 70
-          },
-          "social": {
-               "github": "Rosa-musi" ,
-               "linkedin": "www.linkedin.com/in/rosa-arellano"
-          }
+          "skills": [
+               {
+                    "name":  "HTML",
+                    "percentage": 80
+               },
+               {
+                    "name":  "CSS",
+                    "percentage": 70
+               },
+               {
+                    "name":  "JavaScript",
+                    "percentage": 60
+               },
+               {
+                    "name":  "React",
+                    "percentage": 70
+               }
+          ]
      }
 }
